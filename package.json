@@ -1,0 +1,23 @@
+{
+  "name": "interview_task",
+  "version": "1.0.0",
+  "description": "CRUD operations using PostgreSQL",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^6.13.0",
+    "dan": "^0.0.1",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "pg": "^8.16.3",
+    "zod": "^4.0.15"
+  },
+  "devDependencies": {
+    "prisma": "^6.13.0"
+  }
+}
